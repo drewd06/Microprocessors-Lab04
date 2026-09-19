@@ -33,6 +33,20 @@ here:
 factN:
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	; Comments regarding the factN subroutine go here
+
+; This subroutine is for a recursive program that takes n off 
+;of the stack,and performs the calculation for n factorial 
+;before placing the result onto the stack in n’s place
+
+; n must be greater than 0 and less than 6. The range of 
+;integer inputs for n is [1…5]
+
+; The subroutine stores every integer from [1…n] on the stack. 
+;The subroutine then backtracks the stack to multiply each of 
+;the integers together, storing the partial result in the place 
+;of the factor adjacent to the next factor. The subroutine 
+;returns with the final product stored to n’s address.
+
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	; recursive factorial code begins here
 	
